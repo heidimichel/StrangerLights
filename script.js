@@ -23,7 +23,7 @@ function lightsOn() {
     let lamps = [];
     lamps = document.querySelectorAll(".lamp");
     lamps.forEach((item) => {
-      item.style.setProperty('background-color', 'gray');
+      item.style.setProperty('background-color', '#362211');
       item.style.setProperty('box-shadow', 'none');
       //item.style.setProperty('animation', 'none');
       item.classList.toggle("remove-animation");
