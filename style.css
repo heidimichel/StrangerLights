@@ -7,14 +7,12 @@ body {
     background-image: url('https://i.imgur.com/uVxYrRW.png');
     background-color: #362211;
     background-blend-mode: multiply;
-    /*background-color: #362211;  old color, wasn't good fot contrast with the lights*/
   }
   .reference {
     text-align: center;
     display: none;
   }
   .inspiration {
-    display: none;
     /*gonna delete this part sometime soon, since I wrote about it on the Readme file*/
     text-align: center;
     display: fixed;
@@ -46,6 +44,7 @@ body {
     line-height: 1.3em;
     font-weight: bold;
     font-family: 'Gloria Hallelujah', cursive;
+    color: #ca9877; /*for better visibility*/
   }
   .lamp {
     height: 30px;
